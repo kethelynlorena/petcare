@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style-contato.css">
+    <link rel="icon" href="/banco de imagens/favicon.ico" type="image/x-icon"/>
+    <title>Fale Conosco</title>
+</head>
+<body>
+    <header>
+        <img class="cabecalho-imagem" src="/banco de imagens/Logo-Png.png" alt="Logo da ONG">
+        <nav>
+         <div class="cabecalho-btn">
+            <button class="cabecalho-btn-item-a">
+                <a class="cabecalho-menu-item-a" th:href="@{/petcare/usuario/login}"><strong>Fazer Login</strong></a> 
+            </button> &nbsp;
+            <button class="cabecalho-btn-item-a">
+                <a class="cabecalho-menu-item-a" th:href="@{/petcare/usuario/novo-usuario}"><strong>Cadastre-se</strong></a>
+            </button> <br> 
+         </div>
+            <button class="cabecalho-btn-item">
+                <a class="cabecalho-menu-item" th:href="@{/petcare/usuario/inicio}"><strong>Home</strong></a>
+            </button>
+            <button class="cabecalho-btn-item"> 
+                <a class="cabecalho-menu-item" href=""><strong>Seja Voluntário</strong></a>
+            </button>
+            <button class="cabecalho-btn-item">
+                <a class="cabecalho-menu-item" href=""><strong>Adote</strong></a>
+            </button>
+            <button class="cabecalho-btn-item">
+                <a class="cabecalho-menu-item" href=""><strong>Doe</strong></a>
+            </button>
+            <button class="cabecalho-btn-item">
+                <a class="cabecalho-menu-item" th:href="@{/petcare/usuario/contato}"><strong>Fale Conosco</strong></a>
+            </button>
+        </nav>
+    </header>
+
+    <section>
+        <h1>ENTRE EM CONTATO</h1> <br><br><br><br>
+        <form>
+            <div class="conteudo-principal">
+                <div class="nome-email"> 
+                    <label id="lbl-nome" for="nome">Nome</label> <label id="lbl-email" for="email">E-mail</label> </div>                   
+                <div class="row">
+                    <input type="text" id="nome" placeholder=" Digite seu nome" required> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                    <input type="email" id="email" placeholder=" Digite seu e-mail" required>
+                </div> <br>
+                <div class="row-two">
+                    <label for="assunto">Assunto</label>
+                    <input type="text" id="assunto" placeholder=" Digite o assunto" class="row-txt" required> <br>
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" cols="30" rows="10" placeholder=" Digite sua mensagem"  class="row-txt" required></textarea> <br>
+                </div>
+            </div>
+            <div class="btn-envio">
+            <input type="submit" id="envio" value="Enviar">
+            </div>
+        </form>
+    </section>    
+    
+     <footer>
+        <div class="rdp-encontro">
+            <p class="rdp-topico">Onde encontrar-nos?</p>
+            <p class="rdp-txt">Barueri-SP <br> Avenida São Diego, 55 <br> Vila São João</p>
+        </div>
+        <div class="rdp-horario">
+            <p class="rdp-topico">Horário de Funcionamento</p>
+            <p class="rdp-txt">Aberto todos os dias das 8h às 18h. <br> Incluindo finais de semana.</p>
+        </div>
+        <div class="rdp-contato">
+            <p class="rdp-topico-cnt">Nosso contato
+            <p class="rdp-btn">
+            <img src="/banco de imagens/Icon-Instagram.png" alt="Instagram" class="rdp-icon" id="instagram"> &nbsp;PetCare <br> 
+
+            <img src="/banco de imagens/Icon-Facebook.png" alt="Facebook" class="rdp-icon" id="facebook"> &nbsp;PetCare <br>
+
+            <img src="/banco de imagens/Icon-email.png" alt="E-mail" class="rdp-icon"> &nbsp;petcare@gmail.com <br>
+
+            <img src="/banco de imagens/Icon-telefone.png" alt="Telefone" class="rdp-icon"> &nbsp;(11) 4155-5423 <br>&nbsp; &nbsp;  (11) 91145-5421</p>
+        </div>
+
+        <!-- <div class="rdp-final"> 
+            <h1>PetCare 2023&copy;todos os direitos reservados </h1>
+        </div> -->
+        
+    </footer>
+</body>
+</html>

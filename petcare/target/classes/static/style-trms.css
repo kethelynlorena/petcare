@@ -1,0 +1,148 @@
+body {
+    background-color: rgb(152, 180, 201);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(62, 99, 129);
+}
+/* Header */
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px 10px 60px;
+    background-color: #FA9B70;
+    height: 100px;
+}
+.cabecalho-imagem {
+    width: 120px;
+    height: 120px;
+}
+.cabecalho-menu-item {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+.cabecalho-menu-item-a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13,5px;
+}
+.cabecalho-btn {
+   display: flex;
+   flex-direction: row-reverse;
+}
+.cabecalho-btn-item {
+    margin-left: 10px;
+    margin-bottom: 15px;
+    background: #0e63ab;
+    border-radius: 8px;
+    width: 148px;
+    height: 40px;
+    border: none;
+}
+.cabecalho-btn-item-a {
+    margin-left: 10px;
+    margin-bottom: 15px;
+    background: #e37d4d;
+    border-radius: 8px;
+    width: 105px;
+    height: 25px;
+    border: none;
+}
+
+h1 {
+    text-align: center;
+}
+h2 {
+    font-size: 25px;
+}
+/* DIV */
+.container-trms {
+    padding: 40px;
+    text-align: justify;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 120px;
+    padding-top: 40px;  
+    border-style: inset;
+    border-color: #0b4c8507;
+    background-color: #99B5C9;
+}
+
+#rdp-logo {
+    margin-left: 40px;
+    width: 150px;
+    height: 150px;
+}
+.rdp-topico {
+    color: #00126B;
+    font-size: 25px;
+}
+.rdp-topico-c {
+    color: #00126B;
+    font-size: 25px;
+    margin-top: 85px;
+}
+.rdp-desc {
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+}
+.rdp-inst {
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+}
+.rdp-ajuda {
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+}
+.rdp-contato {
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    margin-top: 40px;
+}
+.rdp-icon {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin-top: 6px;
+    width: 20px;
+    height: 20px;
+}
+.rdp-btn-a {
+    color: #0B4D85;
+    line-height: 40px;
+    text-decoration: none;
+}
+.rdp-btn-a:hover {
+    color: #00126B;
+}
+.rdp-btn-b {
+    color: #0B4D85;
+    line-height: 40px;
+    text-decoration: none;
+}
+/* h1 {
+    color: #00126B;
+    font-size: 15px;
+    text-align: center;
+}
+.rdp-final {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 320px;
+} */

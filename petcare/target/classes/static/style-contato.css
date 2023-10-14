@@ -1,0 +1,208 @@
+body {
+    background-color: rgb(152, 180, 201);
+    background-image: url('banco de imagens/background-pata.png');
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+    margin: 0 auto;
+    padding: 0;
+    overflow-x: hidden;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(62, 99, 129);
+}
+/* Header */
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px 10px 60px;
+    background-color: #FA9B70;
+    height: 100px;
+}
+.cabecalho-imagem {
+    width: 120px;
+    height: 120px;
+}
+.cabecalho-menu-item {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+.cabecalho-menu-item-a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13,5px;
+}
+.cabecalho-btn {
+   display: flex;
+   flex-direction: row-reverse;
+}
+.cabecalho-btn-item {
+    margin-left: 10px;
+    margin-bottom: 15px;
+    background: #0e63ab;
+    border-radius: 8px;
+    width: 148px;
+    height: 40px;
+    border: none;
+}
+.cabecalho-btn-item-a {
+    margin-left: 10px;
+    margin-bottom: 15px;
+    background: #e37d4d;
+    border-radius: 8px;
+    width: 105px;
+    height: 25px;
+    border: none;
+}
+
+section {
+    padding-top: 60px;
+}
+
+form {
+    height: 100vh;
+    padding: 10px
+}
+
+h1 {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 40px;
+    line-height: 90px
+}
+
+/* DIVs */
+.conteudo-principal {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+.row-two {
+    display:flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.row-txt {
+    width: 680px;
+}
+
+/* Lbl */
+label {
+    line-height: 50px;
+    font-size: 25px;
+}
+#lbl-nome {
+    margin-right: 12em; 
+}
+ #lbl-email { 
+    margin-right: 9em; 
+}
+
+/* Input */
+input {
+    border: none;
+    border-radius: 5px;
+    width: 310px;
+    height: 55px;
+}
+input:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+textarea {
+    border: none;
+    border-radius: 10px;
+    width: 309px;
+    height: 100px;
+}
+textarea:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+/* Botão */
+.btn-envio {
+    display: flex;
+    justify-content: center;
+}
+#envio {
+    width: 156px;
+    border-radius: 10px;
+    background-color: #0E63AB;
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 110px;
+    padding-top: 40px;  
+    border-style: inset;
+    border-color: #0b4c8507;
+    background-color: #99B5C9;
+}
+#rdp-logo {
+    margin-left: 40px;
+    width: 150px;
+    height: 150px;
+}
+.rdp-topico {
+    color: #00126B;
+    font-size: 25px;
+}
+.rdp-topico-cnt {
+    color: #00126B;
+    font-size: 25px;
+    margin-top: 85px;
+}
+.rdp-encontro {
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    margin-top: 40px;
+}
+.rdp-horario {
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    margin-top: 40px;
+}
+.rdp-contato {
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    margin-top: 40px;
+}
+.rdp-icon {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+}
+.rdp-txt {
+    color: #0B4D85;
+}
+.rdp-btn {
+    color: #0B4D85;
+    line-height: 40px;
+    text-decoration: none;
+}
+.rdp-btn:hover {
+    color: #00126B;
+}

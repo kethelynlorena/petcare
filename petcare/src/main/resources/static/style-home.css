@@ -1,0 +1,226 @@
+body {
+    background-color: rgb(152, 180, 201);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0b4d85;
+}
+
+/* Header */
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 15px 8px 50px;
+    background-color: #FA9B70;
+    height: 100px;
+}
+.header-logo {
+    width: 110px;
+    height: 110px;
+}
+.petcare-nome {
+    color: #003e6c;
+    font-size: 50px;
+    padding-right: 300px;
+}
+
+.cabecalho-menu-item {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+.cabecalho-menu-item-a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13,5px;
+}
+.cabecalho-btn {
+   display: flex;
+   flex-direction: row-reverse;
+}
+.cabecalho-btn-item {
+    margin-left: 10px;
+    margin-bottom: 15px;
+    background: #0e63ab;
+    border-radius: 8px;
+    width: 148px;
+    height: 40px;
+    border: none;
+}
+.cabecalho-btn-item-a {
+    margin-left: 10px;
+    margin-bottom: 15px;
+    background: #e37d4d;
+    border-radius: 8px;
+    width: 105px;
+    height: 25px;
+    border: none;
+}
+    
+/*primeira parte*/
+h1{
+    font-size: 25px;
+    color: #003054;
+}
+.intro{
+    display: flex;
+    flex-flow: row;
+    padding: 40px 50px 30px 50px;
+}
+#cao1{
+    width: 380px;
+    height: 300px;
+    border-radius: 25px;
+}
+.img-intro{
+    width: 35%;
+    padding: 30px 10px 30px 100px;
+}
+.texto-intro{
+    width: 65%;
+    padding: 10px 100px 10px 0px;
+}
+
+/*segunda parte*/
+.ajudar{
+    padding: 0% 5%;
+}
+h2{
+    font-size: 20px;
+    color: #003054;
+}
+.caixa{
+    width: 25%;
+    display: inline-block;
+    margin: 50px;
+    box-sizing: border-box;
+    background-color: #ccdae4;
+    text-align: center;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 20px;
+}
+.coluna-caixas{
+    text-align: center;
+}
+.btn-caixa{
+    margin-left: 10px;
+    margin-bottom: 15px;
+    background: #e37d4d;
+    border-radius: 10px;
+    width: 230px;
+    height: 50px;
+    border: none;
+    color: #fff;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*terceira parte*/
+.adotar{
+    display: flex;
+    flex-flow: row;
+    padding: 40px 50px 30px 50px;
+}
+#gato5{
+    width: 350px;
+    height: 420px;
+    border-radius: 25px;
+}
+.img-adotar{
+    width: 35%;
+    padding: 30px 30px 20px 140px;
+}
+.texto-adotar{
+    width: 65%;
+    padding: 10px 10px 10px 100px;
+}
+
+
+
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 120px;
+    padding-top: 40px;  
+    border-style: inset;
+    border-color: #0b4c8507;
+    background-color: #99B5C9;
+}
+
+#rdp-logo {
+    margin-left: 40px;
+    width: 150px;
+    height: 150px;
+}
+.rdp-topico {
+    color: #00126B;
+    font-size: 25px;
+}
+.rdp-topico-c {
+    color: #00126B;
+    font-size: 25px;
+    margin-top: 85px;
+}
+.rdp-desc {
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+}
+.rdp-inst {
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+}
+.rdp-ajuda {
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+}
+.rdp-contato {
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    margin-top: 40px;
+}
+.rdp-icon {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin-top: 6px;
+    width: 20px;
+    height: 20px;
+}
+.rdp-btn-a {
+    color: #0B4D85;
+    line-height: 40px;
+    text-decoration: none;
+}
+.rdp-btn-a:hover {
+    color: #00126B;
+}
+.rdp-btn-b {
+    color: #0B4D85;
+    line-height: 40px;
+    text-decoration: none;
+}
+/* h1 {
+    color: #00126B;
+    font-size: 15px;
+    text-align: center;
+}
+.rdp-final {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 320px;
+} */

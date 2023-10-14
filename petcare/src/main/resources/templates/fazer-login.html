@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style-login.css">
+    <link rel="icon" href="/banco de imagens/favicon.ico" type="image/x-icon"/>
+    <title>Fazer Login</title>
+</head>
+<body>
+    <header>
+        <img class="cabecalho-imagem" src="/banco de imagens/Logo-Png.png" alt="Logo da ONG">
+        <nav>
+         <div class="cabecalho-btn">
+            <button class="cabecalho-btn-item-a">
+                <a class="cabecalho-menu-item-a" th:href="@{/petcare/usuario/login}"><strong>Fazer Login</strong></a> 
+            </button>
+            <button class="cabecalho-btn-item-a">
+                <a class="cabecalho-menu-item-a" th:href="@{/petcare/usuario/novo-usuario}"><strong>Cadastre-se</strong></a>
+            </button> <br> 
+         </div>
+            <button class="cabecalho-btn-item">
+                <a class="cabecalho-menu-item" href=""><strong>Home</strong></a>
+            </button>
+            <button class="cabecalho-btn-item"> 
+                <a class="cabecalho-menu-item" href=""><strong>Seja Voluntário</strong></a>
+            </button>
+            <button class="cabecalho-btn-item">
+                <a class="cabecalho-menu-item" href=""><strong>Adote</strong></a>
+            </button>
+            <button class="cabecalho-btn-item">
+                <a class="cabecalho-menu-item" href=""><strong>Doe</strong></a>
+            </button>
+            <button class="cabecalho-btn-item">
+                <a class="cabecalho-menu-item" href="fale-conosco.html"><strong>Fale Conosco</strong></a>
+            </button>
+        </nav>
+    </header>
+
+    <section>
+        <div class="conteudo-principal">
+            <img id="imagem-login" src="/banco de imagens/fundo-login.jpg" alt="Imagem de fundo">
+        <form th:object="${usuario}" th:action="@{/login}">
+            <div class="conteudo-login">
+            <div class="div-logo">
+                <img id="logo-login" src="/banco de imagens/Logo-Png.png" alt="Logo da ONG">
+            </div> <br> <br>
+
+           <label for="email">E-mail</label> <br>
+           <input type="email"  class="inputs" id="email" name="email" maxlength="100" placeholder=" Digite seu e-mail"  autocomplete="off" required/> <br> <br>
+
+           <label for="senha">Senha</label> <br>
+           <input type="password"  class="inputs" id="senha" name="senha" minlength="8" maxlength="30" placeholder=" Digite sua senha" required> 
+            
+           <div class="btn-login">
+            <a href="esqueceu-senha.html" id="btn-login-senha"><strong>Esqueceu a senha?</strong></a> 
+            <a href="formulario-cadastro.html" id="btn-login-conta"><strong>Criar uma conta</strong></a> 
+        </div> <br> 
+
+           <input type="submit" id="btn-envio" value="Entrar">
+        </div>
+        </form>
+        </div>
+    </section>
+    <footer>
+        <div class="rdp-desc">
+            <img src="/banco de imagens/Logo-Png.png" alt="Logo da ONG" id="rdp-logo"> 
+            <p>PetCare transforma cuidado <br> em compaixão e esperança em <br> lar, porque cada vida merece uma <br>história de amor.</p>
+        </div>
+
+        <div class="rdp-inst">
+            <p class="rdp-topico">Institucional</p>
+            <a href="" class="rdp-btn-a">Fale Conosco</a>
+            <a href="" class="rdp-btn-a">Termos de Uso</a>
+            <a href="" class="rdp-btn-a">Política de Privacidade</a>
+        </div>
+        <div class="rdp-ajuda">
+            <p class="rdp-topico">Como Ajudar</p>
+            <a href="" class="rdp-btn-a">Adote</a>
+            <a href="" class="rdp-btn-a">Doe</a>
+            <a href="" class="rdp-btn-a">Seja Voluntário</a>
+        </div>
+        <div class="rdp-contato">
+            <p class="rdp-topico-c">Nosso contato
+            <p class="rdp-btn-b">
+            <img src="/banco de imagens/Icon-Instagram.png" alt="Instagram" class="rdp-icon" id="instagram"> &nbsp;PetCare <br> 
+
+            <img src="/banco de imagens/Icon-Facebook.png" alt="Facebook" class="rdp-icon" id="facebook"> &nbsp;PetCare <br>
+
+            <img src="/banco de imagens/Icon-email.png" alt="E-mail" class="rdp-icon"> &nbsp;petcare@gmail.com <br>
+
+            <img src="/banco de imagens/Icon-telefone.png" alt="Telefone" class="rdp-icon"> &nbsp;(11) 4155-5423 <br>&nbsp; &nbsp;  (11) 91145-5421</p>
+        </div>
+
+        <!-- <div class="rdp-final"> 
+            <h1>PetCare 2023&copy;todos os direitos reservados </h1>
+        </div> --> 
+        
+    </footer>
+</body>
+</html>
